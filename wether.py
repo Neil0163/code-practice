@@ -1,4 +1,4 @@
-def as_sun_lover(temp):
+t def as_sun_lover(temp):
     if (temp) > 25:
         return 'Great'
     else:
@@ -8,7 +8,7 @@ def as_snow_lover(temp):
     if (temp) < 0:
         return "Great"
     else: 
-        return "Not great" 
+        return "isnt great"
 
 def report_wether(temp, preference_func):
     return preference_func(temp)
