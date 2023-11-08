@@ -8,7 +8,7 @@ def as_snow_lover(temp):
     if (temp) < 0:
         return "Great"
     else: 
-        return "isnt great"
+        return "isnt good"
 
 def report_wether(temp, preference_func):
     return preference_func(temp)
